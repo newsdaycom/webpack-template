@@ -1,0 +1,34 @@
+const path = require("path");
+
+module.exports = {
+  entry: ["./src/index.js"],
+  output: {
+    filename: "bundle.js",
+    path: path.resolve(__dirname, "dist"),
+    publicPath: "/dist/",
+  },
+  devtool: "inline-source-map",
+  devServer: {
+    port: 3888, // default: 8080
+    open: true, // open page in browser
+    static: {
+      directory: path.join(__dirname, "public"),
+    },
+  },
+  module: {
+    rules: [
+      {
+        test: /\.(js|jsx)$/,
+        exclude: /node_modules/,
+        use: ["babel-loader"],
+      },
+      {
+        test: /\.(scss|css)$/,
+        use: ["style-loader", "css-loader", "sass-loader"],
+      },
+    ],
+  },
+  resolve: {
+    extensions: ["*", ".js", ".jsx"],
+  },
+};
