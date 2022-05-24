@@ -1,7 +1,7 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import Home from "./components/Home/Home";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Home from './components/Home/Home';
 
-ReactDOM.render(<Home />, document.getElementById("app"));
+ReactDOM.render(<Home />, document.getElementById('app'));
 
-console.log("Built!");
+console.log('Built!');

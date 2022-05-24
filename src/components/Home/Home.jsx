@@ -1,6 +1,8 @@
-import React from "react";
+import React from 'react';
 import './Home.scss';
 
-const Home = () => <div className="home">React Application LIVE</div>;
+function Home () {
+  return <div className="home">React Application LIVE</div>;
+}
 
 export default Home;
