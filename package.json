@@ -7,9 +7,9 @@
   "author": "TC McCarthy <tc.mccarthy1@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "npx webpack watch --mode development",
-    "build": "npx webpack --mode production",
-    "start": "npx webpack serve --config ./webpack.config.js --mode development"
+    "dev": "npx webpack serve --config ./webpack.config.js --mode development",
+    "dev:no-serve": "npx webpack watch --mode development",
+    "build": "npx webpack --mode production"
   },
   "devDependencies": {
     "@babel/core": "^7.18.0",
