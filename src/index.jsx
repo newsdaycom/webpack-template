@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Home from './components/Home';
+import App from './components/App';
 
-ReactDOM.render(<Home />, document.getElementById('app'));
+const root = ReactDOM.createRoot(document.getElementById('app'));
+
+root.render(<App />);
 
 console.log('Built!');
