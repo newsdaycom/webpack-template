@@ -50,7 +50,7 @@
 
 ## About The Project
 
-A standard framework for special projects powered by react and scss. Webpack allows you to bundle your codebase, opening the door to using react, scss and npm packages in the browser with great ease. This bundle also includes hot reload logic so that as you work, your browser will auto refresh, showing your changes.
+A standard framework for special projects powered by react and scss. Webpack allows you to bundle your codebase, opening the door to using react, scss and npm packages in the browser with great ease. This bundle also includes hot reload logic so that as you work, your browser will auto refresh, showing your changes. The webpack logic includes opinionated code formatting and linting to ensure your code adheres to Newsday's standards. Auto formatting helps ensure consistent formatting and clean PRs between multiple developers.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
