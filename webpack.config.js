@@ -13,7 +13,6 @@ module.exports = {
   devServer: {
     https: true,
     allowedHosts: 'all',
-    // host: 'local.projects.newsday.com',
     port: 3888, // default: 8080
     open: true, // open page in browser to prompt dev to accept security exception
     static: {
