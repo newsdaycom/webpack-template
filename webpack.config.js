@@ -11,10 +11,16 @@ module.exports = {
   },
   devtool: 'inline-source-map',
   devServer: {
+    https: true,
+    allowedHosts: 'all',
+    // host: 'local.projects.newsday.com',
     port: 3888, // default: 8080
-    open: true, // open page in browser
+    open: true, // open page in browser to prompt dev to accept security exception
     static: {
       directory: path.join(__dirname, 'public')
+    },
+    client: {
+      webSocketURL: 'wss://localhost:3888/ws'
     }
   },
   module: {
