@@ -99,13 +99,31 @@ yarn build
 
 This will compile all of your production-ready code, with everything minified.
 
+## Usage
+
 Your project needs to include some variation of
 
 ```
 <script src="/path/to/dist/bundle.js">
 ```
 
-React will mount inside a DOM element. By default, this template expects `#app` to exist on the page. You can change this in `src/index.jsx`
+React will mount inside a DOM element. By default, this template expects `#app` to exist on the page. You can change this in `src/index.jsx`. Likewise all of your code should be authored in `src/`. When creating components, you can safely duplicate the `src/components/App` directory and modify the SCSS, JSX and JS files in the dupe to reflect your components needs. This template uses `node-scss` so including your component's styles is as easy as adding the following to the top of the JSX file
+
+```
+import './path/to/styles.scss'
+```
+
+The directory also includes an index.js file, which can be used to declare the directory's default and named exports. This allows for easy imports like
+
+```
+import App from './components/App'
+```
+
+instead of
+
+```
+import App './components/App/App'
+```
 
 ### Prerequisites
 
