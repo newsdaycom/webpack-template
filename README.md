@@ -99,6 +99,14 @@ yarn build
 
 This will compile all of your production-ready code, with everything minified.
 
+### Prerequisites
+
+- node
+- yarn
+  ```sh
+  sudo npm install yarn -g
+  ```
+
 ## Usage
 
 Your project needs to include some variation of
@@ -124,14 +132,6 @@ instead of
 ```
 import App './components/App/App'
 ```
-
-### Prerequisites
-
-- node
-- yarn
-  ```sh
-  sudo npm install yarn -g
-  ```
 
 <!-- CONTRIBUTING -->
 
