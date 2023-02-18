@@ -159,6 +159,7 @@
     "no-class-assign": "error",
     "no-compare-neg-zero": "error",
     "no-cond-assign": "error",
+    "no-console": 0,
     "no-const-assign": "error",
     "no-constant-condition": [
       "error",
@@ -200,6 +201,7 @@
     "no-lone-blocks": "error",
     "no-misleading-character-class": "error",
     "no-prototype-builtins": "error",
+    "no-restricted-exports": 0,
     "no-useless-catch": "error",
     "no-mixed-operators": [
       "error",

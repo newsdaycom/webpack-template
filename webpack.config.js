@@ -3,7 +3,7 @@ const ESLintLoader = require('eslint-webpack-plugin');
 const PrettierLoader = require('prettier-webpack-plugin');
 
 module.exports = {
-  entry: ['./src/index.js'],
+  entry: ['./src/index.jsx'],
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
