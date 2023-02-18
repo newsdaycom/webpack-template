@@ -50,7 +50,11 @@
 
 ## About The Project
 
-A standard framework for special projects powered by react and scss. Webpack allows you to bundle your codebase, opening the door to using react, scss and npm packages in the browser with great ease. This bundle also includes hot reload logic so that as you work, your browser will auto refresh, showing your changes. The webpack logic includes opinionated code formatting and linting to ensure your code adheres to Newsday's standards. Auto formatting helps ensure consistent formatting and clean PRs between multiple developers.
+A standard framework for special projects powered by react and scss. Webpack allows you to bundle your codebase, opening the door to using react, scss and npm packages in the browser with great ease. The webpack rules include transpiling via Babel for excellent compatibility.
+
+This template also includes hot reload logic so that as you work, your browser will auto refresh, showing your changes. The webpack logic includes opinionated code formatting and linting to ensure your code adheres to Newsday's standards. Auto formatting helps ensure consistent formatting and clean PRs between multiple developers.
+
+Exceptions to linting, formatting and committing can be added using the `.eslintignore`, `.gitignore`, and `.prettierignore` files.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -61,6 +65,7 @@ A standard framework for special projects powered by react and scss. Webpack all
 - [![Webpack][webpack]][webpack-url]
 - [![ESLint][eslint]][eslint-url]
 - [![Prettier][prettier]][prettier-url]
+- [![Babel][babel]][babel-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -165,3 +170,5 @@ Project Link: [https://github.com/newsdaycom/webpack-template](https://github.co
 [eslint-url]: https://eslint.org/
 [prettier]: https://img.shields.io/badge/Prettier-20232A?style=for-the-badge&logo=prettier&logoColor=61DAFB
 [prettier-url]: https://prettier.io/
+[babel]: https://img.shields.io/badge/Babel-20232A?style=for-the-badge&logo=babel&logoColor=61DAFB
+[babel-url]: https://babeljs.io/
