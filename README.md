@@ -99,6 +99,14 @@ yarn build
 
 This will compile all of your production-ready code, with everything minified.
 
+Your project needs to include some variation of
+
+```
+<script src="/path/to/dist/bundle.js">
+```
+
+React will mount inside a DOM element. By default, this template expects `#app` to exist on the page. You can change this in `src/index.jsx`
+
 ### Prerequisites
 
 - node
